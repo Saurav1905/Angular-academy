@@ -2,11 +2,11 @@
 
 .navbar {
   background-color: $blue;
-  height: 86px;
+  min-height: 86px;
 }
 
 .navbar-menu {
-  margin-left: 42%;
+  margin-left: 45%;
 }
 a {
   color: white;
@@ -22,7 +22,7 @@ a:hover {
   color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1);
   width: 30px;
-  height: 30px;
+  min-height: 30px;
   font-size: larger;
 }
 .is-active {
@@ -34,4 +34,16 @@ a:hover {
     background-color: $blue;
     color: $yellow;
   }
+}
+img {
+  background-image: url("../../images/caramelacademy.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 70px !important;
+  background-color: white;
+  min-width: 200px;
+  border-radius: 50px 0 0 50px;
+}
+.academy {
+  padding: 0;
 }

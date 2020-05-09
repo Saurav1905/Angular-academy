@@ -5,7 +5,7 @@
   padding-left: 15px !important;
   padding-right: 15px !important;
   margin-top: 40px !important;
-  height: 415px !important;
+  min-height: 415px !important;
   .text {
     color: #636161;
 
@@ -86,7 +86,10 @@
   justify-content: center;
   align-items: center;
   img {
-    height: 100%;
+    min-height: 100%;
     width: 100%;
+    background-image: url("../../images/show4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }

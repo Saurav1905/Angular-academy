@@ -11,9 +11,12 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MidSectionComponent } from './mid-section/mid-section.component';
 import { SecondDropComponent } from './second-drop/second-drop.component';
 import { TaskComponent } from './task/task.component';
+import { FooterComponent } from './footer/footer.component';
+import { ThirdDropComponent } from './third-drop/third-drop.component';
+import { OurprogramComponent } from './ourprogram/ourprogram.component';
 
 @NgModule({
-  declarations: [AppComponent, MainPageComponent, TopbarComponent, TopSectionComponent, FirstDropComponent, MidSectionComponent, SecondDropComponent, TaskComponent],
+  declarations: [AppComponent, MainPageComponent, TopbarComponent, TopSectionComponent, FirstDropComponent, MidSectionComponent, SecondDropComponent, TaskComponent, FooterComponent, ThirdDropComponent, OurprogramComponent],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],

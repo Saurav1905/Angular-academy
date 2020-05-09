@@ -1,8 +1,3 @@
-.sector {
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  justify-content: center;
-}
 .transition,
 p,
 ul li i:before,
@@ -59,6 +54,11 @@ body {
     left: 0;
   }
 }
+.showmore {
+  position: absolute;
+  right: 5%;
+  color: rgba(124, 77, 255, 1);
+}
 
 h1,
 h2 {
@@ -112,6 +112,7 @@ ul li {
   margin: 0;
   padding-bottom: 4px;
   padding-top: 18px;
+  border-top: 1px dotted #dce7eb;
 }
 ul li:nth-of-type(1) {
   animation-delay: 0.5s;
@@ -190,13 +191,8 @@ ul li input[type="checkbox"]:checked ~ i:after {
   }
 }
 .image {
-  background-image: url(../../images/caramelitservices.png);
+  background-image: url(../../images/cover-down.png);
   height: 80vh;
   background-size: contain;
   background-repeat: no-repeat;
-}
-.showmore {
-  position: absolute;
-  right: 5%;
-  color: rgba(124, 77, 255, 1);
 }

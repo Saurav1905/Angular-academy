@@ -1,10 +1,11 @@
 .sector {
   margin-top: 5vh;
-  margin-bottom: 5vh;
+
   justify-content: center;
 }
 .transition,
 p,
+a,
 ul li i:before,
 ul li i:after {
   transition: all 0.25s ease-in-out;
@@ -74,6 +75,11 @@ h1 {
   letter-spacing: 3px;
   font-weight: 100;
 }
+.showmore {
+  position: absolute;
+  right: 5%;
+  color: rgba(124, 77, 255, 1);
+}
 
 h2 {
   font-size: 26px;
@@ -86,7 +92,8 @@ h2 {
   cursor: pointer;
 }
 
-p {
+p,
+a {
   color: rgba(48, 69, 92, 0.8);
   font-size: 17px;
   line-height: 26px;
@@ -190,13 +197,10 @@ ul li input[type="checkbox"]:checked ~ i:after {
   }
 }
 .image {
-  background-image: url(../../images/caramelitservices.png);
-  height: 80vh;
-  background-size: contain;
+  background-image: url(../../images/why-cover.png);
+  height: 120vh;
+  width: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-}
-.showmore {
-  position: absolute;
-  right: 5%;
-  color: rgba(124, 77, 255, 1);
+  cursor: pointer;
 }
