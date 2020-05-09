@@ -1,0 +1,37 @@
+@import "../../main-styles.scss";
+
+.navbar {
+  background-color: $blue;
+  height: 86px;
+}
+
+.navbar-menu {
+  margin-left: 42%;
+}
+a {
+  color: white;
+  font-family: Montserrat, sans-serif;
+  padding: 1.5rem;
+  font-weight: 700;
+}
+a:hover {
+  background-color: $blue;
+  color: $yellow;
+}
+.navbar-burger {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+  width: 30px;
+  height: 30px;
+  font-size: larger;
+}
+.is-active {
+  margin-left: 0;
+  background-color: $blue;
+  color: white;
+  width: 100%;
+  a:hover {
+    background-color: $blue;
+    color: $yellow;
+  }
+}

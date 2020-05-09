@@ -1,0 +1,92 @@
+@import "../../main-styles.scss";
+
+.topsetion {
+  width: 100% !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-top: 40px !important;
+  height: 415px !important;
+  .text {
+    color: #636161;
+
+    h1 {
+      margin: 8% 0 0px !important;
+      font-weight: 600 !important;
+      font-size: 45px !important;
+      text-align: center !important;
+      color: #636161;
+      font-family: "Montserrat", sans-serif !important;
+    }
+    h2 {
+      margin-top: 0 !important;
+      margin-bottom: 40px;
+      font-weight: 600 !important;
+      font-size: 45px !important;
+      text-align: center !important;
+      color: #636161;
+      font-family: "Montserrat", sans-serif !important;
+    }
+    p {
+      box-sizing: border-box !important;
+      font-size: 24px !important;
+      text-align: center !important;
+      margin-top: 0 !important;
+      margin-bottom: 1rem !important;
+      color: #636161 !important;
+      font-family: "Montserrat", sans-serif !important;
+      display: block !important;
+      margin-block-start: 1em !important;
+      margin-block-end: 1em !important;
+      margin-inline-start: 0px !important;
+      margin-inline-end: 0px !important;
+      font-weight: 400 !important;
+      line-height: 1.5 !important;
+    }
+    .learn3 {
+      box-sizing: border-box;
+      margin: 0;
+      margin-left: 25%;
+      padding: 0;
+      display: block;
+      color: #636161;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      a {
+        padding: 15px 13px;
+        display: inline-block;
+        color: black;
+        border: 1px solid #6900d1;
+        text-align: justify !important;
+        font-weight: 300;
+        margin: 8px 8px;
+        font-family: "Montserrat", arial;
+        text-decoration: none;
+        background-color: transparent;
+        box-sizing: border-box;
+        cursor: pointer;
+        line-height: 1.5;
+      }
+      a:hover {
+        background-color: #6900d1;
+        color: white;
+      }
+      .banner2 {
+        margin-left: 5%;
+      }
+    }
+  }
+}
+.image {
+  height: 415px;
+  object-fit: cover;
+  position: relative;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}

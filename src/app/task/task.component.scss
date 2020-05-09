@@ -1,0 +1,119 @@
+@import "../../main-styles.scss";
+.tabsection {
+  margin-top: 200px;
+  height: 90vh;
+  width: 100vw;
+}
+.tabs {
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap; // make sure it wraps
+}
+.tabs label {
+  width: 50%;
+  color: black;
+  height: 11%;
+  order: 1; // Put the labels first
+  display: block;
+  padding: 1rem 2rem;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  cursor: pointer;
+  background: #6900d1;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  height: 85%;
+  width: 100%;
+  order: 99; // Put the tabs last
+  flex-grow: 1;
+  width: 100%;
+  display: none;
+  padding: 1rem;
+  background: #fff;
+}
+.tabs input[type="radio"] {
+  display: none;
+}
+.tabs input[type="radio"]:checked + label {
+  background: $yellow;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+
+/**
+ * Generic Styling
+*/
+body {
+  background: #eee;
+  width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+  padding-top: 10vh;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: 112%;
+}
+.course {
+  width: 23%;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.sub {
+  width: 100%;
+  height: 60%;
+}
+.sub1 {
+  width: 100%;
+  height: 40%;
+}
+.sub img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.sub1 h5 {
+  text-align: center;
+  font-weight: bold;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+#read {
+  margin-left: 0%;
+  background-color: #007bff94;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}

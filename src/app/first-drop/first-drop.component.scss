@@ -1,0 +1,38 @@
+@import "../../main-styles.scss";
+
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.forMargin {
+  margin-bottom: 700px;
+}
+h1 {
+  color: rgba(0, 191, 255, 1);
+  font-weight: 700 !important;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+.showmore {
+  color: rgba(0, 191, 255, 1);
+  border: none;
+  text-transform: uppercase;
+}
+.button {
+  border: none;
+}
+.showmore:hover {
+  color: white;
+}
+.button:hover {
+  background-color: rgba(0, 191, 255, 1);
+  color: white;
+}
+.dropdown-menu {
+  margin-top: 40px;
+
+  width: 100vw !important;
+  height: 600px !important;
+  background-image: url(../../images/caramelitservices.png);
+  background-size: cover;
+}
