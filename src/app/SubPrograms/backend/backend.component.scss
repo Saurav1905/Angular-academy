@@ -1,0 +1,301 @@
+.body {
+  min-height: 100vh;
+}
+body,
+.body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+.sub-head {
+  font-size: 50px;
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 2%;
+  font-weight: 500;
+  border-bottom: 2px solid #fc5185;
+}
+
+.ccontent,
+.cimage {
+  color: rgb(247, 238, 238) !important;
+  background-color: #071a52 !important;
+}
+.ccontent h3 {
+  color: #fc5185 !important;
+}
+.cimage img {
+  margin-top: 15px;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 1);
+}
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+.topic {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.topic h1 {
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  padding-right: auto;
+  font-size: 2.5rem;
+  color: #fc5185;
+  text-align: center;
+  border-bottom: 2px solid #0e153a;
+  width: 40vw;
+}
+.image {
+  min-height: 100%;
+  width: 100%;
+  background: url(../../../images/backend.jpg);
+  background-repeat: no-repeat;
+
+  background-size: contain;
+}
+.description {
+  height: 60vh;
+  position: absolute;
+  overflow: auto;
+  color: white;
+  right: 0px;
+  width: 50%;
+  padding: 5% 5%;
+  background-color: #0e153a;
+  text-align: center;
+}
+
+.coursefirst {
+  width: 15%;
+  -webkit-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.coursefirst:hover {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.9);
+  transform: translateY(-5.3px);
+  transition-duration: 0.8s;
+}
+.coursesimg {
+  width: 100%;
+  height: 100px;
+}
+.coursethird {
+  width: 100%;
+  height: auto;
+}
+.coursethird p {
+  font-weight: bold;
+  text-align: center;
+}
+.show-drop {
+  height: 300px;
+  overflow: scroll;
+}
+.coursefooter a {
+  color: #292c7d;
+}
+#cards1 {
+  margin-left: 5%;
+}
+.courses5 {
+  padding: 0px !important;
+}
+#coursenav {
+  padding: 0px !important;
+}
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.naving1 {
+  background-color: #292c7d;
+  color: white !important;
+}
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.logo1 {
+  background: white;
+  border-radius: 100px 0px 0px 100px;
+  width: 200px;
+  height: 70px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+.alink {
+  color: whitesmoke !important;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.ccontent h3 {
+  color: #fc5185 !important;
+}
+.ccontent h3 {
+  color: #292c7d;
+  font-size: 40px;
+
+  /* margin-left: 20px; */
+  font-weight: bold;
+  height: auto;
+  margin-top: 30px;
+}
+.ccontent p {
+  font-size: 25px;
+  /* margin-left: 20px; */
+  text-align: justify;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.cimage img {
+  margin-top: 15px;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 1);
+}
+
+.cimage img {
+  width: 100%;
+  padding: 40px 20px 0px 20px;
+  height: 240px;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+#cards1 {
+  margin-left: 60px;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.coursefirst {
+  width: 15%;
+  -webkit-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.coursethird {
+  width: 100%;
+  height: auto;
+}
+.coursethird p {
+  font-weight: bold;
+  text-align: center;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}

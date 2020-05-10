@@ -14,9 +14,27 @@ import { TaskComponent } from './task/task.component';
 import { FooterComponent } from './footer/footer.component';
 import { ThirdDropComponent } from './third-drop/third-drop.component';
 import { OurprogramComponent } from './ourprogram/ourprogram.component';
+import { ProgrampageComponent } from './programpage/programpage.component';
+import { SubprogramComponent } from './subprogram/subprogram.component';
+import { BackendComponent } from './SubPrograms/backend/backend.component';
 
 @NgModule({
-  declarations: [AppComponent, MainPageComponent, TopbarComponent, TopSectionComponent, FirstDropComponent, MidSectionComponent, SecondDropComponent, TaskComponent, FooterComponent, ThirdDropComponent, OurprogramComponent],
+  declarations: [
+    AppComponent,
+    MainPageComponent,
+    TopbarComponent,
+    TopSectionComponent,
+    FirstDropComponent,
+    MidSectionComponent,
+    SecondDropComponent,
+    TaskComponent,
+    FooterComponent,
+    ThirdDropComponent,
+    OurprogramComponent,
+    ProgrampageComponent,
+    SubprogramComponent,
+    BackendComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
